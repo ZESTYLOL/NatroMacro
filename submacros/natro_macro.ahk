@@ -9397,7 +9397,7 @@ nm_Reset(checkAll:=1, wait:=2000, convert:=1, force:=0){
 			GetRobloxClientPos()
 			send "{" SC_Esc "}{" SC_R "}{" SC_Enter "}"
 			n := 0
-			while ((n < 2) && (A_Index <= 200))
+			while ((n < 2) && (A_Index <= 50))
 			{
 				Sleep 100
 				pBMScreen := Gdip_BitmapFromScreen(windowX "|" windowY "|" windowWidth "|50")
